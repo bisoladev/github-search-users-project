@@ -9,7 +9,7 @@ const Dashboard = () => {
       {/* <Search /> */}
       <Info />
       <User />
-      {/* <Repos /> */}
+      {/* - */}
     </main>
   );
 };
