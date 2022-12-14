@@ -29,11 +29,11 @@ const ChartComponent = ({ data }) => {
       // Chart Configuration
       chart: {
         //Set the chart caption
-        caption: "Languages",
-        decimals: 0,
-        pieRadius: "25%",
-        //Set the theme for your chart
-        theme: "fusion",
+        caption: "Most Popular",
+        yAxisName: "Stars",
+        xAxisName: "Repos",
+        xAxisNameFontSize: "16px",
+        yAxisNameFontSize: "16px",
       },
       // Chart Data
       data,
