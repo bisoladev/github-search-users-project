@@ -34,7 +34,7 @@ const GithubProvider = ({ children }) => {
       .catch((err) => console.log(err));
   };
 
-  function toggleError(show, msg) {
+  function toggleError(show = false, msg = "") {
     setError({ show, msg });
   }
   //error
