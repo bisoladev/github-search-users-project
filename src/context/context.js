@@ -41,7 +41,7 @@ const GithubProvider = ({ children }) => {
         if (followers.status === status) {
           setFollowers(followers.value.data);
         }
-      });
+      }).catch(err => console.log(err));
       setIsLoading(false);
       //more logic here
     } else {
